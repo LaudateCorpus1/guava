@@ -203,7 +203,7 @@ public final class HttpHeaders {
    * The HTTP <a href="https://wicg.github.io/private-network-access/#headers">{@code
    * Access-Control-Allow-Private-Network}</a> header field name.
    *
-   * @since NEXT
+   * @since 31.1
    */
   public static final String ACCESS_CONTROL_ALLOW_PRIVATE_NETWORK =
       "Access-Control-Allow-Private-Network";
@@ -679,7 +679,7 @@ public final class HttpHeaders {
    * The HTTP <a href="https://wicg.github.io/ua-client-hints/#sec-ch-ua-full-version-list">{@code
    * Sec-CH-UA-Full-Version}</a> header field name.
    *
-   * @since NEXT
+   * @since 31.1
    */
   public static final String SEC_CH_UA_FULL_VERSION_LIST = "Sec-CH-UA-Full-Version-List";
   /**
@@ -696,7 +696,29 @@ public final class HttpHeaders {
    * @since 31.0
    */
   public static final String SEC_CH_UA_BITNESS = "Sec-CH-UA-Bitness";
-
+  /**
+   * The HTTP <a
+   * href="https://wicg.github.io/responsive-image-client-hints/#sec-ch-viewport-width">{@code
+   * Sec-CH-Viewport-Width}</a> header field name.
+   *
+   * @since NEXT
+   */
+  public static final String SEC_CH_VIEWPORT_WIDTH = "Sec-CH-Viewport-Width";
+  /**
+   * The HTTP <a
+   * href="https://wicg.github.io/responsive-image-client-hints/#sec-ch-viewport-height">{@code
+   * Sec-CH-Viewport-Height}</a> header field name.
+   *
+   * @since NEXT
+   */
+  public static final String SEC_CH_VIEWPORT_HEIGHT = "Sec-CH-Viewport-Height";
+  /**
+   * The HTTP <a href="https://wicg.github.io/responsive-image-client-hints/#sec-ch-dpr">{@code
+   * Sec-CH-DPR}</a> header field name.
+   *
+   * @since NEXT
+   */
+  public static final String SEC_CH_DPR = "Sec-CH-DPR";
   /**
    * The HTTP <a href="https://w3c.github.io/webappsec-fetch-metadata/">{@code Sec-Fetch-Dest}</a>
    * header field name.
